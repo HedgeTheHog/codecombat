@@ -479,16 +479,16 @@ module.exports = nativeDescription: "polski", englishDescription: "Polish", tran
     io_blurb: "Prosty lecz nieznany."
 #    status: "Status"
     hero_type: "Typ"
-#    weapons: "Weapons"
-#    weapons_warrior: "Swords - Short Range, No Magic"
-#    weapons_ranger: "Crossbows, Guns - Long Range, No Magic"
-#    weapons_wizard: "Wands, Staffs - Long Range, Magic"
-#    attack: "Damage" # Can also translate as "Attack"
-#    health: "Health"
+    weapons: "Bronie"
+    weapons_warrior: "Miecze - krótki dystans, Brak magii"
+    weapons_ranger: "Kusze, Pistolety - Daleki Zasięg, Brak magii"
+    weapons_wizard: "Wands, Staffs -  Daleki Zasięg, Magia"
+    attack: "Obrażenia" # Can also translate as "Attack"
+    health: "Życie"
     speed: "Szybkość"
-#    regeneration: "Regeneration"
+    regeneration: "Regeneracja"
     range: "Zasięg" # As in "attack or visual range"
-#    blocks: "Blocks" # As in "this shield blocks this much damage"
+    blocks: "Blokowanie" # As in "this shield blocks this much damage"
 #    backstab: "Backstab" # As in "this dagger does this much backstab damage"
     skills: "Umiejętności"
     attack_1: "Zadaje"
@@ -523,7 +523,7 @@ module.exports = nativeDescription: "polski", englishDescription: "Polish", tran
 
   save_load:
     granularity_saved_games: "Zapisano"
-#    granularity_change_history: "History"
+    granularity_change_history: "Historia"
 
   options:
     general_options: "Opcje ogólne" # Check out the Options tab in the Game Menu while playing a level
