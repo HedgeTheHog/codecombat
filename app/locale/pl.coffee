@@ -52,10 +52,10 @@ module.exports = nativeDescription: "polski", englishDescription: "Polish", tran
     spectate: "Oglądaj" # Ladder page
     players: "graczy" # Hover over a level on /play
     hours_played: "rozegranych godzin" # Hover over a level on /play
-#    items: "Items" # Tooltip on item shop button from /play
+    items: "Przedmioty" # Tooltip on item shop button from /play
     unlock: "Odblokuj" # For purchasing items and heroes
     confirm: "Potwierdź"
-#    owned: "Owned" # For items you own
+    owned: "Posiadane" # For items you own
     locked: "Zablokowane"
 #    purchasable: "Purchasable" # For a hero you unlocked but haven't purchased
     available: "Dostępny"
@@ -109,10 +109,10 @@ module.exports = nativeDescription: "polski", englishDescription: "Polish", tran
     forgot_password: "Nie pamiętasz hasła?"
 #    authenticate_gplus: "Authenticate G+"
 #    load_profile: "Load G+ Profile"
-#    finishing: "Finishing"
-#    sign_in_with_facebook: "Sign in with Facebook"
+    finishing: "Kończenie"
+    sign_in_with_facebook: "Zalogój si przez Facebook"
 #    sign_in_with_gplus: "Sign in with G+"
-#    signup_switch: "Want to create an account?"
+    signup_switch: "CZy chcesz stworzyć konto?"
 
   signup:
     email_announcements: "Otrzymuj powiadomienia na e-mail"
@@ -126,7 +126,7 @@ module.exports = nativeDescription: "polski", englishDescription: "Polish", tran
   recover:
     recover_account_title: "Odzyskaj konto"
     send_password: "Wyślij hasło tymczasowe"
-#    recovery_sent: "Recovery email sent."
+    recovery_sent: "Haso tymczasowe zostao wysane."
 
   items:
     primary: "Główne"
@@ -254,16 +254,16 @@ module.exports = nativeDescription: "polski", englishDescription: "Polish", tran
     victory_rate_the_level: "Oceń poziom: " # Only in old-style levels.
     victory_return_to_ladder: "Powrót do drabinki"
     victory_play_continue: "Kontynuuj"
-#    victory_saving_progress: "Saving Progress"
+    victory_saving_progress: "Zapisywanie postępu"
     victory_go_home: "Powrót do strony głównej" # Only in old-style levels.
     victory_review: "Powiedz nam coś więcej!" # Only in old-style levels.
     victory_hour_of_code_done: "Skończyłeś już?"
     victory_hour_of_code_done_yes: "Tak, skończyłem moją Godzinę Kodu."
     victory_experience_gained: "Doświadczenie zdobyte"
     victory_gems_gained: "Klejnoty zdobyte"
-#    victory_new_item: "New Item"
+    victory_new_item: "Nowy Przedmiot"
 #    victory_viking_code_school: "Holy smokes, that was a hard level you just beat! If you aren't already a software developer, you should be. You just got fast-tracked for acceptance with Viking Code School, where you can take your skills to the next level and become a professional web developer in 14 weeks."
-#    victory_become_a_viking: "Become a Viking"
+    victory_become_a_viking: "Zostań Wikingiem"
     guide_title: "Przewodnik"
     tome_minion_spells: "Czary twojego podopiecznego" # Only in old-style levels.
     tome_read_only_spells: "Czary tylko do odczytu" # Only in old-style levels.
@@ -273,7 +273,7 @@ module.exports = nativeDescription: "polski", englishDescription: "Polish", tran
 #    tome_cast_button_ran: "Ran"
     tome_submit_button: "Prześlij"
 #    tome_reload_method: "Reload original code for this method" # Title text for individual method reload button.
-#    tome_select_method: "Select a Method"
+    tome_select_method: "Wybierz Metodę"
 #    tome_see_all_methods: "See all methods you can edit" # Title text for method list selector (shown when there are multiple programmable methdos).
     tome_select_a_thang: "Wybierz kogoś do "
     tome_available_spells: "Dostępne czary"
